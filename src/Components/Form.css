@@ -1,0 +1,43 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Full viewport height */
+}
+
+.contact-form {
+    padding: 2%; /* Padding around the form */
+    border: 2px solid grey; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 400px; /* Fixed width */
+}
+
+.contact-form h2 {
+    text-align: center; /* Center the heading */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.contact-form input[type="submit"] {
+    background-color: grey; 
+    color: white; 
+    border: 2px solid grey; 
+    
+    border-radius: 4px; 
+    padding: 10px;
+    cursor: pointer; 
+    width: 100%; 
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: darkgrey;
+}
